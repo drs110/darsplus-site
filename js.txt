@@ -1,3 +1,1 @@
-<h1 data-aos="fade-up">DarsPlus</h1>
-<p data-aos="fade-up" data-aos-delay="200">Smart lesson & assessment creation for teachers</p>
-<a href="#features" class="btn" data-aos="zoom-in" data-aos-delay="400">Explore Features</a>
+
