@@ -66,6 +66,23 @@
   <footer>
     <p>© 2025 DarsPlus. All rights reserved.</p>
   </footer>
+  <!-- Lesson Generator Form -->
+<section class="lesson-generator">
+  <h2>توليد درس جديد</h2>
+  <form id="lessonForm">
+    <label>عنوان الدرس:</label>
+    <input type="text" id="lessonTitle" required><br>
+
+    <label>أهداف الدرس:</label>
+    <textarea id="lessonGoals" rows="3" required></textarea><br>
+
+    <label>محتوى الدرس:</label>
+    <textarea id="lessonContent" rows="6" required></textarea><br>
+
+    <button type="button" onclick="generatePDF()">تحميل كـ PDF</button>
+  </form>
+</section>
+
 
   <!-- AOS Script -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
